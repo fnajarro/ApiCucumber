@@ -29,7 +29,7 @@ public class RunnerTest extends BaseTest{
 	@BeforeClass
 	public static void login() {
 		Map<String, String> login = new HashMap<>(); //Criação do MAP para enviar as credenciais para efetuar login
-		login.put("email", "fabiano@najarro"); // Setando o e-mail		
+		login.put("email", "fabiano@najarro"); // Setando o e-mail...		
 		login.put("senha", "123456"); //Setando a senha
 		
 		//Bloco para efetuar login
