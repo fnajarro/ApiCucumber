@@ -1,0 +1,161 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Manutenção de contas",
+    "children" : [ {
+      "name" : "Incluir conta com sucesso",
+      "children" : [ {
+        "name" : "Incluir conta com sucesso",
+        "uid" : "a53100c3aa39af76",
+        "parentUid" : "4af1404f4f0abbd8056072eb341a113e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596057659922,
+          "stop" : 1596057660321,
+          "duration" : 399
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4af1404f4f0abbd8056072eb341a113e"
+    }, {
+      "name" : "Alterar conta com sucesso",
+      "children" : [ {
+        "name" : "Alterar conta com sucesso",
+        "uid" : "bac631e79afd955d",
+        "parentUid" : "e39d85a05cd15393599e5a34e6181a71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596057660357,
+          "stop" : 1596057661218,
+          "duration" : 861
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e39d85a05cd15393599e5a34e6181a71"
+    }, {
+      "name" : "Incluir conta duplicada",
+      "children" : [ {
+        "name" : "Incluir conta duplicada",
+        "uid" : "a7c9fb355f523c11",
+        "parentUid" : "f6ae2bb27fb000ae69599577428320c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596057661220,
+          "stop" : 1596057661845,
+          "duration" : 625
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f6ae2bb27fb000ae69599577428320c3"
+    } ],
+    "uid" : "29db91e2fd0da06d8038afd34c2d25e6"
+  }, {
+    "name" : "Movimentação de contas",
+    "children" : [ {
+      "name" : "Inserir movimentação com sucesso",
+      "children" : [ {
+        "name" : "Inserir movimentação com sucesso",
+        "uid" : "311876475b68e16a",
+        "parentUid" : "bbefee2380d7677ee56392b9f387ccf2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596057661847,
+          "stop" : 1596057662569,
+          "duration" : 722
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bbefee2380d7677ee56392b9f387ccf2"
+    }, {
+      "name" : "Validar campos obrigatórios",
+      "children" : [ {
+        "name" : "Validar campos obrigatórios",
+        "uid" : "2e09ce199fdeafe2",
+        "parentUid" : "c5fb09afc5c4a5218bd5a181fb33da46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596057662571,
+          "stop" : 1596057663218,
+          "duration" : 647
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c5fb09afc5c4a5218bd5a181fb33da46"
+    }, {
+      "name" : "Inserir movimentação com data futura",
+      "children" : [ {
+        "name" : "Inserir movimentação com data futura",
+        "uid" : "29aec9ad1153989f",
+        "parentUid" : "3b76ec44885525c652645338db4e7891",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596057663220,
+          "stop" : 1596057664504,
+          "duration" : 1284
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b76ec44885525c652645338db4e7891"
+    }, {
+      "name" : "Remover conta com movimentação",
+      "children" : [ {
+        "name" : "Remover conta com movimentação",
+        "uid" : "4269bbf28dace3f9",
+        "parentUid" : "abcc43bca55d5780a84edf3cb875fd41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596057664505,
+          "stop" : 1596057665472,
+          "duration" : 967
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "abcc43bca55d5780a84edf3cb875fd41"
+    }, {
+      "name" : "Remover movimentação com sucesso",
+      "children" : [ {
+        "name" : "Remover movimentação com sucesso",
+        "uid" : "64622e162e0c4f03",
+        "parentUid" : "d273f60b9fb731d9e53d65e000770beb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596057665474,
+          "stop" : 1596057666411,
+          "duration" : 937
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d273f60b9fb731d9e53d65e000770beb"
+    } ],
+    "uid" : "de4bcaad5e3bd1d4ac2c64f1f54411a0"
+  }, {
+    "name" : "Relatorio de contas",
+    "children" : [ {
+      "name" : "Calcular saldo das contas",
+      "children" : [ {
+        "name" : "Calcular saldo das contas",
+        "uid" : "aba5ec63f09ff831",
+        "parentUid" : "657139e6380425a724ae97f4d83562b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596057666413,
+          "stop" : 1596057667230,
+          "duration" : 817
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "657139e6380425a724ae97f4d83562b3"
+    } ],
+    "uid" : "dfc0bed31f4353ac8c72c5ca847312d2"
+  } ]
+}

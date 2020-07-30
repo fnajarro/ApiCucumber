@@ -1,0 +1,114 @@
+{
+  "uid" : "e006c5424fa9e88",
+  "name" : "Incluir conta com sucesso",
+  "fullName" : "Manutenção de contas: Incluir conta com sucesso",
+  "historyId" : "e5fc3f7e63b625e42e25975fdbf88a5e",
+  "time" : {
+    "start" : 1596053000021,
+    "stop" : 1596053000383,
+    "duration" : 362
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado  que vou incluir uma conta nova",
+      "time" : {
+        "start" : 1596053000026,
+        "stop" : 1596053000084,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Quando  eu fizer um post na API de contas",
+      "time" : {
+        "start" : 1596053000086,
+        "stop" : 1596053000376,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Então  valido que o retorno foi 201 e a conta foi inserida com sucesso",
+      "time" : {
+        "start" : 1596053000377,
+        "stop" : 1596053000382,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Manutenção de contas"
+  }, {
+    "name" : "story",
+    "value" : "Incluir conta com sucesso"
+  }, {
+    "name" : "tag",
+    "value" : "Contas"
+  }, {
+    "name" : "host",
+    "value" : "zup-002382"
+  }, {
+    "name" : "thread",
+    "value" : "13376@zup-002382.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Manutenção de contas"
+  }, {
+    "name" : "suite",
+    "value" : "Manutenção de contas"
+  }, {
+    "name" : "testClass",
+    "value" : "Incluir conta com sucesso"
+  }, {
+    "name" : "framework",
+    "value" : "cucumberjvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Contas" ]
+  },
+  "source" : "e006c5424fa9e88.json",
+  "parameterValues" : [ ]
+}

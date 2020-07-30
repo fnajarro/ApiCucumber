@@ -1,0 +1,228 @@
+{
+  "uid" : "bac631e79afd955d",
+  "name" : "Alterar conta com sucesso",
+  "fullName" : "Manutenção de contas: Alterar conta com sucesso",
+  "historyId" : "740c747a7019ff2c1384bb639a8ca200",
+  "time" : {
+    "start" : 1596057660357,
+    "stop" : 1596057661218,
+    "duration" : 861
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado  que vou alterar uma conta existente",
+      "time" : {
+        "start" : 1596057660359,
+        "stop" : 1596057660840,
+        "duration" : 481
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Quando  eu fizer um put na API de contas",
+      "time" : {
+        "start" : 1596057660840,
+        "stop" : 1596057661190,
+        "duration" : 350
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Então  valido que o retorno foi 200 e a conta foi alterada com sucesso",
+      "time" : {
+        "start" : 1596057661190,
+        "stop" : 1596057661217,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Manutenção de contas"
+  }, {
+    "name" : "story",
+    "value" : "Alterar conta com sucesso"
+  }, {
+    "name" : "tag",
+    "value" : "Contas"
+  }, {
+    "name" : "host",
+    "value" : "zup-002382"
+  }, {
+    "name" : "thread",
+    "value" : "2388@zup-002382.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Manutenção de contas"
+  }, {
+    "name" : "suite",
+    "value" : "Manutenção de contas"
+  }, {
+    "name" : "testClass",
+    "value" : "Alterar conta com sucesso"
+  }, {
+    "name" : "framework",
+    "value" : "cucumberjvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "39ce92a5bf8ca74c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596057308209,
+        "stop" : 1596057308991,
+        "duration" : 782
+      }
+    }, {
+      "uid" : "60351093b8a879c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596057118461,
+        "stop" : 1596057119232,
+        "duration" : 771
+      }
+    }, {
+      "uid" : "f1d3cdf31e6ac0a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596054879434,
+        "stop" : 1596054880532,
+        "duration" : 1098
+      }
+    }, {
+      "uid" : "d26ae78759a1b70c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596053000426,
+        "stop" : 1596053001038,
+        "duration" : 612
+      }
+    }, {
+      "uid" : "fa9d6228ab9e543e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596052988699,
+        "stop" : 1596052989685,
+        "duration" : 986
+      }
+    }, {
+      "uid" : "cc6430edd21bf7a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596052978926,
+        "stop" : 1596052979736,
+        "duration" : 810
+      }
+    }, {
+      "uid" : "a932cf5c92f7142b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596052963065,
+        "stop" : 1596052963710,
+        "duration" : 645
+      }
+    }, {
+      "uid" : "d1b25af77647cd9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596052894750,
+        "stop" : 1596052895404,
+        "duration" : 654
+      }
+    }, {
+      "uid" : "a63eaa01d9134802",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596050923764,
+        "stop" : 1596050924493,
+        "duration" : 729
+      }
+    }, {
+      "uid" : "9f1d3f55e1fcde43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596050857379,
+        "stop" : 1596050858230,
+        "duration" : 851
+      }
+    }, {
+      "uid" : "1116a05050ee741b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596050736998,
+        "stop" : 1596050738252,
+        "duration" : 1254
+      }
+    }, {
+      "uid" : "96e9d7e95c1993d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596048562022,
+        "stop" : 1596048562882,
+        "duration" : 860
+      }
+    }, {
+      "uid" : "6e5a6c5218c66a03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596048146381,
+        "stop" : 1596048147207,
+        "duration" : 826
+      }
+    }, {
+      "uid" : "c92be2f7b3fc34af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596046553650,
+        "stop" : 1596046554648,
+        "duration" : 998
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Contas" ]
+  },
+  "source" : "bac631e79afd955d.json",
+  "parameterValues" : [ ]
+}

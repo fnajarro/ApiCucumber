@@ -1,0 +1,114 @@
+{
+  "uid" : "fa7a4bd894bf47ac",
+  "name" : "Remover movimentação com sucesso",
+  "fullName" : "Movimentação de contas: Remover movimentação com sucesso",
+  "historyId" : "568d5fedbee85e5c54463a04435a1b",
+  "time" : {
+    "start" : 1596048565348,
+    "stop" : 1596048565968,
+    "duration" : 620
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado  que vou remover uma movimentação",
+      "time" : {
+        "start" : 1596048565349,
+        "stop" : 1596048565692,
+        "duration" : 343
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Quando  eu fizer um delete na API de transações",
+      "time" : {
+        "start" : 1596048565692,
+        "stop" : 1596048565967,
+        "duration" : 275
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Então  valido que o retorno foi 204",
+      "time" : {
+        "start" : 1596048565968,
+        "stop" : 1596048565968,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Movimentação de contas"
+  }, {
+    "name" : "story",
+    "value" : "Remover movimentação com sucesso"
+  }, {
+    "name" : "tag",
+    "value" : "Movimentacao"
+  }, {
+    "name" : "host",
+    "value" : "zup-002382"
+  }, {
+    "name" : "thread",
+    "value" : "9292@zup-002382.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Movimentação de contas"
+  }, {
+    "name" : "suite",
+    "value" : "Movimentação de contas"
+  }, {
+    "name" : "testClass",
+    "value" : "Remover movimentação com sucesso"
+  }, {
+    "name" : "framework",
+    "value" : "cucumberjvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Movimentacao" ]
+  },
+  "source" : "fa7a4bd894bf47ac.json",
+  "parameterValues" : [ ]
+}

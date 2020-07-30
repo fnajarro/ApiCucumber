@@ -1,0 +1,91 @@
+[ {
+  "uid" : "a53100c3aa39af76",
+  "name" : "Incluir conta com sucesso",
+  "time" : {
+    "start" : 1596057659922,
+    "stop" : 1596057660321,
+    "duration" : 399
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aba5ec63f09ff831",
+  "name" : "Calcular saldo das contas",
+  "time" : {
+    "start" : 1596057666413,
+    "stop" : 1596057667230,
+    "duration" : 817
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7c9fb355f523c11",
+  "name" : "Incluir conta duplicada",
+  "time" : {
+    "start" : 1596057661220,
+    "stop" : 1596057661845,
+    "duration" : 625
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64622e162e0c4f03",
+  "name" : "Remover movimentação com sucesso",
+  "time" : {
+    "start" : 1596057665474,
+    "stop" : 1596057666411,
+    "duration" : 937
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bac631e79afd955d",
+  "name" : "Alterar conta com sucesso",
+  "time" : {
+    "start" : 1596057660357,
+    "stop" : 1596057661218,
+    "duration" : 861
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29aec9ad1153989f",
+  "name" : "Inserir movimentação com data futura",
+  "time" : {
+    "start" : 1596057663220,
+    "stop" : 1596057664504,
+    "duration" : 1284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4269bbf28dace3f9",
+  "name" : "Remover conta com movimentação",
+  "time" : {
+    "start" : 1596057664505,
+    "stop" : 1596057665472,
+    "duration" : 967
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "311876475b68e16a",
+  "name" : "Inserir movimentação com sucesso",
+  "time" : {
+    "start" : 1596057661847,
+    "stop" : 1596057662569,
+    "duration" : 722
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e09ce199fdeafe2",
+  "name" : "Validar campos obrigatórios",
+  "time" : {
+    "start" : 1596057662571,
+    "stop" : 1596057663218,
+    "duration" : 647
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
