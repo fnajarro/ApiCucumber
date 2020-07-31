@@ -18,8 +18,8 @@ import io.restassured.RestAssured;
 		features = "src/test/resources/features/",
 		glue = "tests",
 		tags = {"~@ignore"},
-//		plugin = {"pretty", "html:target/report-html", "json:target/report.json"},
-		plugin = {"pretty", "io.qameta.allure.cucumberjvm.AllureCucumberJvm:target/allure-results", "html:target/report-html", "json:target/report.json", "junit:Folder_Name/cucumber.xml"},
+		plugin = {"pretty", "html:target/report-html", "json:target/report.json"},
+//		plugin = {"pretty", "io.qameta.allure.cucumberjvm.AllureCucumberJvm:target/allure-results", "html:target/report-html", "json:target/report.json", "junit:Folder_Name/cucumber.xml"},
 		monochrome = true,
 		snippets = SnippetType.CAMELCASE
 		)
