@@ -4,117 +4,117 @@
   "children" : [ {
     "name" : "zup-002382",
     "children" : [ {
-      "name" : "2388@zup-002382.main(1)",
+      "name" : "9588@zup-002382.main(1)",
       "children" : [ {
-        "name" : "Incluir conta com sucesso",
-        "uid" : "a53100c3aa39af76",
-        "parentUid" : "e312e18b15c213545d604fd4d154d008",
+        "name" : "Inserir movimentação com sucesso",
+        "uid" : "f41c615028fd78e5",
+        "parentUid" : "f64f00bf524bdafec25c92c34faab827",
         "status" : "passed",
         "time" : {
-          "start" : 1596057659922,
-          "stop" : 1596057660321,
-          "duration" : 399
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Calcular saldo das contas",
-        "uid" : "aba5ec63f09ff831",
-        "parentUid" : "e312e18b15c213545d604fd4d154d008",
-        "status" : "passed",
-        "time" : {
-          "start" : 1596057666413,
-          "stop" : 1596057667230,
-          "duration" : 817
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Incluir conta duplicada",
-        "uid" : "a7c9fb355f523c11",
-        "parentUid" : "e312e18b15c213545d604fd4d154d008",
-        "status" : "passed",
-        "time" : {
-          "start" : 1596057661220,
-          "stop" : 1596057661845,
-          "duration" : 625
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Remover movimentação com sucesso",
-        "uid" : "64622e162e0c4f03",
-        "parentUid" : "e312e18b15c213545d604fd4d154d008",
-        "status" : "passed",
-        "time" : {
-          "start" : 1596057665474,
-          "stop" : 1596057666411,
-          "duration" : 937
+          "start" : 1596209526934,
+          "stop" : 1596209527527,
+          "duration" : 593
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Alterar conta com sucesso",
-        "uid" : "bac631e79afd955d",
-        "parentUid" : "e312e18b15c213545d604fd4d154d008",
+        "uid" : "70fd7093a838858c",
+        "parentUid" : "f64f00bf524bdafec25c92c34faab827",
         "status" : "passed",
         "time" : {
-          "start" : 1596057660357,
-          "stop" : 1596057661218,
-          "duration" : 861
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Inserir movimentação com data futura",
-        "uid" : "29aec9ad1153989f",
-        "parentUid" : "e312e18b15c213545d604fd4d154d008",
-        "status" : "passed",
-        "time" : {
-          "start" : 1596057663220,
-          "stop" : 1596057664504,
-          "duration" : 1284
+          "start" : 1596209525995,
+          "stop" : 1596209526643,
+          "duration" : 648
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Remover conta com movimentação",
-        "uid" : "4269bbf28dace3f9",
-        "parentUid" : "e312e18b15c213545d604fd4d154d008",
+        "uid" : "813459b982e9e495",
+        "parentUid" : "f64f00bf524bdafec25c92c34faab827",
         "status" : "passed",
         "time" : {
-          "start" : 1596057664505,
-          "stop" : 1596057665472,
-          "duration" : 967
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Inserir movimentação com sucesso",
-        "uid" : "311876475b68e16a",
-        "parentUid" : "e312e18b15c213545d604fd4d154d008",
-        "status" : "passed",
-        "time" : {
-          "start" : 1596057661847,
-          "stop" : 1596057662569,
-          "duration" : 722
+          "start" : 1596209528420,
+          "stop" : 1596209529197,
+          "duration" : 777
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Validar campos obrigatórios",
-        "uid" : "2e09ce199fdeafe2",
-        "parentUid" : "e312e18b15c213545d604fd4d154d008",
+        "uid" : "e41d8ddf4efbb8cd",
+        "parentUid" : "f64f00bf524bdafec25c92c34faab827",
         "status" : "passed",
         "time" : {
-          "start" : 1596057662571,
-          "stop" : 1596057663218,
-          "duration" : 647
+          "start" : 1596209527530,
+          "stop" : 1596209527831,
+          "duration" : 301
         },
         "flaky" : true,
         "parameters" : [ ]
+      }, {
+        "name" : "Calcular saldo das contas",
+        "uid" : "fc17606466fd37d5",
+        "parentUid" : "f64f00bf524bdafec25c92c34faab827",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596209529908,
+          "stop" : 1596209530571,
+          "duration" : 663
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Remover movimentação com sucesso",
+        "uid" : "44d8289da6a9799c",
+        "parentUid" : "f64f00bf524bdafec25c92c34faab827",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596209529199,
+          "stop" : 1596209529906,
+          "duration" : 707
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Incluir conta com sucesso",
+        "uid" : "be2719dc81b571d2",
+        "parentUid" : "f64f00bf524bdafec25c92c34faab827",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596209525588,
+          "stop" : 1596209525949,
+          "duration" : 361
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Incluir conta duplicada",
+        "uid" : "19d4431ad21fa360",
+        "parentUid" : "f64f00bf524bdafec25c92c34faab827",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596209526645,
+          "stop" : 1596209526932,
+          "duration" : 287
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Inserir movimentação com data futura",
+        "uid" : "96222255ece92cb3",
+        "parentUid" : "f64f00bf524bdafec25c92c34faab827",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596209527832,
+          "stop" : 1596209528419,
+          "duration" : 587
+        },
+        "flaky" : false,
+        "parameters" : [ ]
       } ],
-      "uid" : "e312e18b15c213545d604fd4d154d008"
+      "uid" : "f64f00bf524bdafec25c92c34faab827"
     } ],
     "uid" : "1359c0068c1ae2bd7d391a25dcb0d21e"
   } ]

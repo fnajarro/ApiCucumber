@@ -1,0 +1,259 @@
+{
+  "uid" : "fc17606466fd37d5",
+  "name" : "Calcular saldo das contas",
+  "fullName" : "Relatorio de contas: Calcular saldo das contas",
+  "historyId" : "2d3a7e27db8a5b2b3cedaec2ddff03ef",
+  "time" : {
+    "start" : 1596209529908,
+    "stop" : 1596209530571,
+    "duration" : 663
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado  que vou calcular o saldo das contas",
+      "time" : {
+        "start" : 1596209529909,
+        "stop" : 1596209529912,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Quando  eu fizer um get na API de saldos",
+      "time" : {
+        "start" : 1596209529912,
+        "stop" : 1596209530227,
+        "duration" : 315
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Então  valido que o cód de retorno foi 200",
+      "time" : {
+        "start" : 1596209530228,
+        "stop" : 1596209530230,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "E  valido o saldo atual da conta",
+      "time" : {
+        "start" : 1596209530230,
+        "stop" : 1596209530571,
+        "duration" : 341
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Relatorio de contas"
+  }, {
+    "name" : "story",
+    "value" : "Calcular saldo das contas"
+  }, {
+    "name" : "tag",
+    "value" : "Saldo"
+  }, {
+    "name" : "host",
+    "value" : "zup-002382"
+  }, {
+    "name" : "thread",
+    "value" : "9588@zup-002382.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Relatorio de contas"
+  }, {
+    "name" : "suite",
+    "value" : "Relatorio de contas"
+  }, {
+    "name" : "testClass",
+    "value" : "Calcular saldo das contas"
+  }, {
+    "name" : "framework",
+    "value" : "cucumberjvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5abc7a481aba072a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596208471320,
+        "stop" : 1596208471978,
+        "duration" : 658
+      }
+    }, {
+      "uid" : "8d1489d1d9a89572",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596057666413,
+        "stop" : 1596057667230,
+        "duration" : 817
+      }
+    }, {
+      "uid" : "d3363a7bb76f0334",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596057313194,
+        "stop" : 1596057314105,
+        "duration" : 911
+      }
+    }, {
+      "uid" : "f9bf2fb9bc33a175",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596057123686,
+        "stop" : 1596057124839,
+        "duration" : 1153
+      }
+    }, {
+      "uid" : "7303f0be202a904b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596054884299,
+        "stop" : 1596054884980,
+        "duration" : 681
+      }
+    }, {
+      "uid" : "4a7a4c098addac05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596053006458,
+        "stop" : 1596053007078,
+        "duration" : 620
+      }
+    }, {
+      "uid" : "8c806255c388ac99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596052993526,
+        "stop" : 1596052994113,
+        "duration" : 587
+      }
+    }, {
+      "uid" : "8e8c74d87351fc43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596052983105,
+        "stop" : 1596052983846,
+        "duration" : 741
+      }
+    }, {
+      "uid" : "cb05a91b773ec841",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596052966993,
+        "stop" : 1596052967758,
+        "duration" : 765
+      }
+    }, {
+      "uid" : "56df67ea8e7fe8fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596052900033,
+        "stop" : 1596052900670,
+        "duration" : 637
+      }
+    }, {
+      "uid" : "d17ae25c216b1b5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596050928043,
+        "stop" : 1596050928636,
+        "duration" : 593
+      }
+    }, {
+      "uid" : "906ac102d80b6f91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596050861525,
+        "stop" : 1596050862118,
+        "duration" : 593
+      }
+    }, {
+      "uid" : "4cab646d81a18383",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596050742422,
+        "stop" : 1596050743062,
+        "duration" : 640
+      }
+    }, {
+      "uid" : "ae44aee4c9af6df7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596048565971,
+        "stop" : 1596048566578,
+        "duration" : 607
+      }
+    }, {
+      "uid" : "c224820db3f055e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596048152698,
+        "stop" : 1596048153700,
+        "duration" : 1002
+      }
+    }, {
+      "uid" : "9b84bc0c749abfa5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596046559836,
+        "stop" : 1596046560714,
+        "duration" : 878
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Saldo" ]
+  },
+  "source" : "fc17606466fd37d5.json",
+  "parameterValues" : [ ]
+}

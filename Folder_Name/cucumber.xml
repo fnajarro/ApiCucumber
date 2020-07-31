@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="7.207935">
-<testcase classname="Manutenção de contas" name="Incluir conta com sucesso" time="0.383806">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="6.303383">
+<testcase classname="Manutenção de contas" name="Incluir conta com sucesso" time="0.48232">
 <system-out><![CDATA[Dado que vou incluir uma conta nova.........................................passed
 Quando eu fizer um post na API de contas....................................passed
 Então valido que o retorno foi 201 e a conta foi inserida com sucesso.......passed
 ]]></system-out>
 </testcase>
-<testcase classname="Manutenção de contas" name="Alterar conta com sucesso" time="0.856149">
+<testcase classname="Manutenção de contas" name="Alterar conta com sucesso" time="0.70934">
 <system-out><![CDATA[Dado que vou alterar uma conta existente....................................passed
 Quando eu fizer um put na API de contas.....................................passed
 Então valido que o retorno foi 200 e a conta foi alterada com sucesso.......passed
 ]]></system-out>
 </testcase>
-<testcase classname="Manutenção de contas" name="Incluir conta duplicada" time="0.621811">
+<testcase classname="Manutenção de contas" name="Incluir conta duplicada" time="0.355834">
 <system-out><![CDATA[Dado que vou incluir uma conta já existente.................................passed
 Quando eu fizer um post na API de contas....................................passed
 Então valido que o retorno foi 400 e a conta não foi inserida por duplicidade.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Movimentação de contas" name="Inserir movimentação com sucesso" time="0.719025">
+<testcase classname="Movimentação de contas" name="Inserir movimentação com sucesso" time="0.743493">
 <system-out><![CDATA[Dado que vou inserir uma nova movimentação..................................passed
 Quando eu fizer um post na API de movimentações.............................passed
 Então valido que o retorno foi 201 e a movimentação foi inserida com sucesso.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Movimentação de contas" name="Validar campos obrigatórios" time="0.642219">
+<testcase classname="Movimentação de contas" name="Validar campos obrigatórios" time="0.336191">
 <system-out><![CDATA[Dado que vou inserir uma nova movimentação com todos os campos em branco....passed
 Quando eu fizer um post na API de movimentações.............................passed
 Então valido que o retorno foi 400..........................................passed
 E retornou mensagens de obrigatoriedade.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Movimentação de contas" name="Inserir movimentação com data futura" time="1.279089">
+<testcase classname="Movimentação de contas" name="Inserir movimentação com data futura" time="0.643585">
 <system-out><![CDATA[Dado que vou inserir uma nova movimentação com data futura..................passed
 Quando eu fizer um post na API de movimentações.............................passed
 Então valido que o retorno foi 400..........................................passed
 E valido a mensagem de erro referente a data futura.........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Movimentação de contas" name="Remover conta com movimentação" time="0.960213">
+<testcase classname="Movimentação de contas" name="Remover conta com movimentação" time="0.650413">
 <system-out><![CDATA[Dado que vou remover uma conta que tenha movimentação.......................passed
 Quando eu fizer um delete na API de contas..................................passed
 Então valido que o retorno foi 500..........................................passed
 E valido que a conta não pode ser removida..................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Movimentação de contas" name="Remover movimentação com sucesso" time="0.934395">
+<testcase classname="Movimentação de contas" name="Remover movimentação com sucesso" time="0.667121">
 <system-out><![CDATA[Dado que vou remover uma movimentação.......................................passed
 Quando eu fizer um delete na API de transações..............................passed
 Então valido que o retorno foi 204..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Relatorio de contas" name="Calcular saldo das contas" time="0.811228">
+<testcase classname="Relatorio de contas" name="Calcular saldo das contas" time="1.715086">
 <system-out><![CDATA[Dado que vou calcular o saldo das contas....................................passed
 Quando eu fizer um get na API de saldos.....................................passed
 Então valido que o cód de retorno foi 200...................................passed

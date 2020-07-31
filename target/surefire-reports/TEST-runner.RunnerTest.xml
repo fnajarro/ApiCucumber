@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="40" failures="0" name="runner.RunnerTest" time="0.052" errors="0" skipped="0">
+<testsuite tests="40" failures="0" name="runner.RunnerTest" time="0.05" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_251\bin"/>
@@ -68,7 +68,7 @@
   <testcase classname="Cenário: Incluir conta com sucesso" name="Dado que vou incluir uma conta nova" time="0.001"/>
   <testcase classname="Cenário: Incluir conta com sucesso" name="Quando eu fizer um post na API de contas" time="0"/>
   <testcase classname="Cenário: Incluir conta com sucesso" name="Então valido que o retorno foi 201 e a conta foi inserida com sucesso" time="0"/>
-  <testcase classname="Cenário: Incluir conta com sucesso" name="Cenário: Incluir conta com sucesso" time="0.037"/>
+  <testcase classname="Cenário: Incluir conta com sucesso" name="Cenário: Incluir conta com sucesso" time="0.038"/>
   <testcase classname="Cenário: Alterar conta com sucesso" name="Dado que vou alterar uma conta existente" time="0"/>
   <testcase classname="Cenário: Alterar conta com sucesso" name="Quando eu fizer um put na API de contas" time="0"/>
   <testcase classname="Cenário: Alterar conta com sucesso" name="Então valido que o retorno foi 200 e a conta foi alterada com sucesso" time="0"/>
@@ -76,11 +76,11 @@
   <testcase classname="Cenário: Incluir conta duplicada" name="Dado que vou incluir uma conta já existente" time="0"/>
   <testcase classname="Cenário: Incluir conta duplicada" name="Quando eu fizer um post na API de contas" time="0"/>
   <testcase classname="Cenário: Incluir conta duplicada" name="Então valido que o retorno foi 400 e a conta não foi inserida por duplicidade" time="0"/>
-  <testcase classname="Cenário: Incluir conta duplicada" name="Cenário: Incluir conta duplicada" time="0.002"/>
+  <testcase classname="Cenário: Incluir conta duplicada" name="Cenário: Incluir conta duplicada" time="0.001"/>
   <testcase classname="Cenário: Inserir movimentação com sucesso" name="Dado que vou inserir uma nova movimentação" time="0"/>
   <testcase classname="Cenário: Inserir movimentação com sucesso" name="Quando eu fizer um post na API de movimentações" time="0"/>
-  <testcase classname="Cenário: Inserir movimentação com sucesso" name="Então valido que o retorno foi 201 e a movimentação foi inserida com sucesso" time="0.001"/>
-  <testcase classname="Cenário: Inserir movimentação com sucesso" name="Cenário: Inserir movimentação com sucesso" time="0.003"/>
+  <testcase classname="Cenário: Inserir movimentação com sucesso" name="Então valido que o retorno foi 201 e a movimentação foi inserida com sucesso" time="0"/>
+  <testcase classname="Cenário: Inserir movimentação com sucesso" name="Cenário: Inserir movimentação com sucesso" time="0.002"/>
   <testcase classname="Cenário: Validar campos obrigatórios" name="Dado que vou inserir uma nova movimentação com todos os campos em branco" time="0"/>
   <testcase classname="Cenário: Validar campos obrigatórios" name="Quando eu fizer um post na API de movimentações" time="0"/>
   <testcase classname="Cenário: Validar campos obrigatórios" name="Então valido que o retorno foi 400" time="0"/>

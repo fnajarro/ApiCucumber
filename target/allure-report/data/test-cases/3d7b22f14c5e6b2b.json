@@ -1,0 +1,129 @@
+{
+  "uid" : "3d7b22f14c5e6b2b",
+  "name" : "Validar campos obrigatórios",
+  "fullName" : "Movimentação de contas: Validar campos obrigatórios",
+  "historyId" : "d98f6ac8a318b1383e1a37f4eabdd2ed",
+  "time" : {
+    "start" : 1596057310569,
+    "stop" : 1596057310914,
+    "duration" : 345
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado  que vou inserir uma nova movimentação com todos os campos em branco",
+      "time" : {
+        "start" : 1596057310571,
+        "stop" : 1596057310572,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Quando  eu fizer um post na API de movimentações",
+      "time" : {
+        "start" : 1596057310572,
+        "stop" : 1596057310900,
+        "duration" : 328
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Então  valido que o retorno foi 400",
+      "time" : {
+        "start" : 1596057310901,
+        "stop" : 1596057310901,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "E  retornou mensagens de obrigatoriedade",
+      "time" : {
+        "start" : 1596057310902,
+        "stop" : 1596057310914,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Movimentação de contas"
+  }, {
+    "name" : "story",
+    "value" : "Validar campos obrigatórios"
+  }, {
+    "name" : "tag",
+    "value" : "Movimentacao"
+  }, {
+    "name" : "host",
+    "value" : "zup-002382"
+  }, {
+    "name" : "thread",
+    "value" : "13960@zup-002382.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Movimentação de contas"
+  }, {
+    "name" : "suite",
+    "value" : "Movimentação de contas"
+  }, {
+    "name" : "testClass",
+    "value" : "Validar campos obrigatórios"
+  }, {
+    "name" : "framework",
+    "value" : "cucumberjvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Movimentacao" ]
+  },
+  "source" : "3d7b22f14c5e6b2b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,114 @@
+{
+  "uid" : "90594998c5bc7182",
+  "name" : "Alterar conta com sucesso",
+  "fullName" : "Manutenção de contas: Alterar conta com sucesso",
+  "historyId" : "740c747a7019ff2c1384bb639a8ca200",
+  "time" : {
+    "start" : 1596048146381,
+    "stop" : 1596048147207,
+    "duration" : 826
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado  que vou alterar uma conta existente",
+      "time" : {
+        "start" : 1596048146384,
+        "stop" : 1596048146784,
+        "duration" : 400
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Quando  eu fizer um put na API de contas",
+      "time" : {
+        "start" : 1596048146785,
+        "stop" : 1596048147173,
+        "duration" : 388
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Então  valido que o retorno foi 200 e a conta foi alterada com sucesso",
+      "time" : {
+        "start" : 1596048147175,
+        "stop" : 1596048147207,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Manutenção de contas"
+  }, {
+    "name" : "story",
+    "value" : "Alterar conta com sucesso"
+  }, {
+    "name" : "tag",
+    "value" : "Contas"
+  }, {
+    "name" : "host",
+    "value" : "zup-002382"
+  }, {
+    "name" : "thread",
+    "value" : "12888@zup-002382.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Manutenção de contas"
+  }, {
+    "name" : "suite",
+    "value" : "Manutenção de contas"
+  }, {
+    "name" : "testClass",
+    "value" : "Alterar conta com sucesso"
+  }, {
+    "name" : "framework",
+    "value" : "cucumberjvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Contas" ]
+  },
+  "source" : "90594998c5bc7182.json",
+  "parameterValues" : [ ]
+}
