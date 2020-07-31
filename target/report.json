@@ -1,1 +1,584 @@
-[]
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Incluir conta com sucesso",
+        "description": "",
+        "id": "manutenção-de-contas;incluir-conta-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 68587300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que vou incluir uma conta nova",
+            "match": {
+              "location": "ContasTest.deveIncluirContaComSucesso()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 286633600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "eu fizer um post na API de contas",
+            "match": {
+              "location": "ContasTest.euFizerUmPostNaAPIDeContas()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1716900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "valido que o retorno foi 201 e a conta foi inserida com sucesso",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 25
+                }
+              ],
+              "location": "ContasTest.validoQueORetornoFoiEAContaFoiInseridaComSucesso(int)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Alterar conta com sucesso",
+        "description": "",
+        "id": "manutenção-de-contas;alterar-conta-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 321545200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que vou alterar uma conta existente",
+            "match": {
+              "location": "ContasTest.deveAlterarContaComSucesso()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 301864700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "eu fizer um put na API de contas",
+            "match": {
+              "location": "ContasTest.euFizerUmPutNaAPIDeContas()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 39385000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "valido que o retorno foi 200 e a conta foi alterada com sucesso",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 25
+                }
+              ],
+              "location": "ContasTest.validoQueORetornoFoiEAContaFoiAlteradaComSucesso(int)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Incluir conta duplicada",
+        "description": "",
+        "id": "manutenção-de-contas;incluir-conta-duplicada",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1490000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "que vou incluir uma conta já existente",
+            "match": {
+              "location": "ContasTest.naoDeveIncluirContaComNomeRepetido()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 290884500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "eu fizer um post na API de contas",
+            "match": {
+              "location": "ContasTest.euFizerUmPostNaAPIDeContas()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 11254200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "valido que o retorno foi 400 e a conta não foi inserida por duplicidade",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 25
+                }
+              ],
+              "location": "ContasTest.validoQueORetornoFoiEAContaNãoFoiInseridaPorDuplicidade(int)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Manutenção de contas",
+    "description": "",
+    "id": "manutenção-de-contas",
+    "keyword": "Funcionalidade",
+    "uri": "contas.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@Contas"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Inserir movimentação com sucesso",
+        "description": "",
+        "id": "movimentação-de-contas;inserir-movimentação-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 331878500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que vou inserir uma nova movimentação",
+            "match": {
+              "location": "MovimentacaoTest.deveInserirMovimentacaoComSucesso()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 276536700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "eu fizer um post na API de movimentações",
+            "match": {
+              "location": "MovimentacaoTest.euFizerUmPostNaAPIDeMovimentações()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 4832200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "valido que o retorno foi 201 e a movimentação foi inserida com sucesso",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 25
+                }
+              ],
+              "location": "MovimentacaoTest.validoQueORetornoFoiEAMovimentaçãoFoiInseridaComSucesso(int)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Validar campos obrigatórios",
+        "description": "",
+        "id": "movimentação-de-contas;validar-campos-obrigatórios",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1483200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que vou inserir uma nova movimentação com todos os campos em branco",
+            "match": {
+              "location": "MovimentacaoTest.deveValidarCamposObrigatoriosNaMovimentacao()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 290207100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "eu fizer um post na API de movimentações",
+            "match": {
+              "location": "MovimentacaoTest.euFizerUmPostNaAPIDeMovimentações()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1039100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "valido que o retorno foi 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 25
+                }
+              ],
+              "location": "MovimentacaoTest.validoQueORetornoFoi(int)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 19305900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "retornou mensagens de obrigatoriedade",
+            "match": {
+              "location": "MovimentacaoTest.retornouMensagensDeObrogatoriedade()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Inserir movimentação com data futura",
+        "description": "",
+        "id": "movimentação-de-contas;inserir-movimentação-com-data-futura",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 302355500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "que vou inserir uma nova movimentação com data futura",
+            "match": {
+              "location": "MovimentacaoTest.naoDeveInserirMovimentacaoDataMovimentacaoFutura()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 291609400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "eu fizer um post na API de movimentações",
+            "match": {
+              "location": "MovimentacaoTest.euFizerUmPostNaAPIDeMovimentações()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 320500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "valido que o retorno foi 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 25
+                }
+              ],
+              "location": "MovimentacaoTest.validoQueORetornoFoi(int)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 9172900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "valido a mensagem de erro referente a data futura",
+            "match": {
+              "location": "MovimentacaoTest.validoAMensagemDeErroReferenteADataFutura()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Remover conta com movimentação",
+        "description": "",
+        "id": "movimentação-de-contas;remover-conta-com-movimentação",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 299614800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "que vou remover uma conta que tenha movimentação",
+            "match": {
+              "location": "MovimentacaoTest.naoDeveRemoverContaComMovimentacao()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 297441100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "eu fizer um delete na API de contas",
+            "match": {
+              "location": "MovimentacaoTest.euFizerUmDeleteNaAPIDeContas()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1662700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "valido que o retorno foi 500",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 25
+                }
+              ],
+              "location": "MovimentacaoTest.validoQueORetornoFoi(int)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 13812400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "valido que a conta não pode ser removida",
+            "match": {
+              "location": "MovimentacaoTest.validoQueAContaNãoPodeSerRemovida()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Remover movimentação com sucesso",
+        "description": "",
+        "id": "movimentação-de-contas;remover-movimentação-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 317326900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "que vou remover uma movimentação",
+            "match": {
+              "location": "MovimentacaoTest.deveRemoverMovimentacao()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 275894700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "eu fizer um delete na API de transações",
+            "match": {
+              "location": "MovimentacaoTest.euFizerUmDeleteNaAPIDeTransações()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1014400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "valido que o retorno foi 204",
+            "match": {
+              "arguments": [
+                {
+                  "val": "204",
+                  "offset": 25
+                }
+              ],
+              "location": "MovimentacaoTest.validoQueORetornoFoi(int)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Movimentação de contas",
+    "description": "",
+    "id": "movimentação-de-contas",
+    "keyword": "Funcionalidade",
+    "uri": "movimentacao.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@Movimentacao"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Calcular saldo das contas",
+        "description": "",
+        "id": "relatorio-de-contas;calcular-saldo-das-contas",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 6894100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que vou calcular o saldo das contas",
+            "match": {
+              "location": "SaldoTest.deveCalcularSaldoContas()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 303473000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "eu fizer um get na API de saldos",
+            "match": {
+              "location": "SaldoTest.euFizerUmGetNaAPIDeSaldos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 313000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "valido que o cód de retorno foi 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "SaldoTest.validoQueOCódDeRetornoFoi(int)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 340560900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "valido o saldo atual da conta",
+            "match": {
+              "location": "SaldoTest.validoOSaldoAtualDaConta()"
+            },
+            "keyword": "E "
+          }
+        ]
+      }
+    ],
+    "name": "Relatorio de contas",
+    "description": "",
+    "id": "relatorio-de-contas",
+    "keyword": "Funcionalidade",
+    "uri": "saldo.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@Saldo"
+      }
+    ]
+  }
+]
