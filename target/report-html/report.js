@@ -45,14 +45,14 @@ formatter.match({
   "location": "ContasTest.deveIncluirContaComSucesso()"
 });
 formatter.result({
-  "duration": 68587300,
+  "duration": 60708900,
   "status": "passed"
 });
 formatter.match({
   "location": "ContasTest.euFizerUmPostNaAPIDeContas()"
 });
 formatter.result({
-  "duration": 286633600,
+  "duration": 275916400,
   "status": "passed"
 });
 formatter.match({
@@ -65,7 +65,7 @@ formatter.match({
   "location": "ContasTest.validoQueORetornoFoiEAContaFoiInseridaComSucesso(int)"
 });
 formatter.result({
-  "duration": 1716900,
+  "duration": 1533500,
   "status": "passed"
 });
 formatter.scenario({
@@ -95,14 +95,14 @@ formatter.match({
   "location": "ContasTest.deveAlterarContaComSucesso()"
 });
 formatter.result({
-  "duration": 321545200,
+  "duration": 1328289900,
   "status": "passed"
 });
 formatter.match({
   "location": "ContasTest.euFizerUmPutNaAPIDeContas()"
 });
 formatter.result({
-  "duration": 301864700,
+  "duration": 565500800,
   "status": "passed"
 });
 formatter.match({
@@ -115,7 +115,7 @@ formatter.match({
   "location": "ContasTest.validoQueORetornoFoiEAContaFoiAlteradaComSucesso(int)"
 });
 formatter.result({
-  "duration": 39385000,
+  "duration": 32718600,
   "status": "passed"
 });
 formatter.scenario({
@@ -145,14 +145,14 @@ formatter.match({
   "location": "ContasTest.naoDeveIncluirContaComNomeRepetido()"
 });
 formatter.result({
-  "duration": 1490000,
+  "duration": 960700,
   "status": "passed"
 });
 formatter.match({
   "location": "ContasTest.euFizerUmPostNaAPIDeContas()"
 });
 formatter.result({
-  "duration": 290884500,
+  "duration": 370240300,
   "status": "passed"
 });
 formatter.match({
@@ -165,7 +165,7 @@ formatter.match({
   "location": "ContasTest.validoQueORetornoFoiEAContaNãoFoiInseridaPorDuplicidade(int)"
 });
 formatter.result({
-  "duration": 11254200,
+  "duration": 7574600,
   "status": "passed"
 });
 formatter.uri("movimentacao.feature");
@@ -215,14 +215,14 @@ formatter.match({
   "location": "MovimentacaoTest.deveInserirMovimentacaoComSucesso()"
 });
 formatter.result({
-  "duration": 331878500,
+  "duration": 288277900,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoTest.euFizerUmPostNaAPIDeMovimentações()"
 });
 formatter.result({
-  "duration": 276536700,
+  "duration": 282647300,
   "status": "passed"
 });
 formatter.match({
@@ -235,7 +235,7 @@ formatter.match({
   "location": "MovimentacaoTest.validoQueORetornoFoiEAMovimentaçãoFoiInseridaComSucesso(int)"
 });
 formatter.result({
-  "duration": 4832200,
+  "duration": 1315400,
   "status": "passed"
 });
 formatter.scenario({
@@ -270,14 +270,14 @@ formatter.match({
   "location": "MovimentacaoTest.deveValidarCamposObrigatoriosNaMovimentacao()"
 });
 formatter.result({
-  "duration": 1483200,
+  "duration": 722400,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoTest.euFizerUmPostNaAPIDeMovimentações()"
 });
 formatter.result({
-  "duration": 290207100,
+  "duration": 272152400,
   "status": "passed"
 });
 formatter.match({
@@ -290,14 +290,14 @@ formatter.match({
   "location": "MovimentacaoTest.validoQueORetornoFoi(int)"
 });
 formatter.result({
-  "duration": 1039100,
+  "duration": 408300,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoTest.retornouMensagensDeObrogatoriedade()"
 });
 formatter.result({
-  "duration": 19305900,
+  "duration": 13496100,
   "status": "passed"
 });
 formatter.scenario({
@@ -332,14 +332,14 @@ formatter.match({
   "location": "MovimentacaoTest.naoDeveInserirMovimentacaoDataMovimentacaoFutura()"
 });
 formatter.result({
-  "duration": 302355500,
+  "duration": 301971600,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoTest.euFizerUmPostNaAPIDeMovimentações()"
 });
 formatter.result({
-  "duration": 291609400,
+  "duration": 343101600,
   "status": "passed"
 });
 formatter.match({
@@ -352,14 +352,14 @@ formatter.match({
   "location": "MovimentacaoTest.validoQueORetornoFoi(int)"
 });
 formatter.result({
-  "duration": 320500,
+  "duration": 292200,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoTest.validoAMensagemDeErroReferenteADataFutura()"
 });
 formatter.result({
-  "duration": 9172900,
+  "duration": 8940500,
   "status": "passed"
 });
 formatter.scenario({
@@ -394,14 +394,14 @@ formatter.match({
   "location": "MovimentacaoTest.naoDeveRemoverContaComMovimentacao()"
 });
 formatter.result({
-  "duration": 299614800,
+  "duration": 425385600,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoTest.euFizerUmDeleteNaAPIDeContas()"
 });
 formatter.result({
-  "duration": 297441100,
+  "duration": 299892100,
   "status": "passed"
 });
 formatter.match({
@@ -414,14 +414,14 @@ formatter.match({
   "location": "MovimentacaoTest.validoQueORetornoFoi(int)"
 });
 formatter.result({
-  "duration": 1662700,
+  "duration": 416800,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoTest.validoQueAContaNãoPodeSerRemovida()"
 });
 formatter.result({
-  "duration": 13812400,
+  "duration": 7526200,
   "status": "passed"
 });
 formatter.scenario({
@@ -451,14 +451,14 @@ formatter.match({
   "location": "MovimentacaoTest.deveRemoverMovimentacao()"
 });
 formatter.result({
-  "duration": 317326900,
+  "duration": 282655100,
   "status": "passed"
 });
 formatter.match({
   "location": "MovimentacaoTest.euFizerUmDeleteNaAPIDeTransações()"
 });
 formatter.result({
-  "duration": 275894700,
+  "duration": 296680300,
   "status": "passed"
 });
 formatter.match({
@@ -471,7 +471,7 @@ formatter.match({
   "location": "MovimentacaoTest.validoQueORetornoFoi(int)"
 });
 formatter.result({
-  "duration": 1014400,
+  "duration": 254400,
   "status": "passed"
 });
 formatter.uri("saldo.feature");
@@ -526,14 +526,14 @@ formatter.match({
   "location": "SaldoTest.deveCalcularSaldoContas()"
 });
 formatter.result({
-  "duration": 6894100,
+  "duration": 1782200,
   "status": "passed"
 });
 formatter.match({
   "location": "SaldoTest.euFizerUmGetNaAPIDeSaldos()"
 });
 formatter.result({
-  "duration": 303473000,
+  "duration": 304262700,
   "status": "passed"
 });
 formatter.match({
@@ -546,14 +546,14 @@ formatter.match({
   "location": "SaldoTest.validoQueOCódDeRetornoFoi(int)"
 });
 formatter.result({
-  "duration": 313000,
+  "duration": 244200,
   "status": "passed"
 });
 formatter.match({
   "location": "SaldoTest.validoOSaldoAtualDaConta()"
 });
 formatter.result({
-  "duration": 340560900,
+  "duration": 313797200,
   "status": "passed"
 });
 });

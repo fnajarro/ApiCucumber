@@ -25,7 +25,7 @@ import io.restassured.RestAssured;
 		snippets = SnippetType.CAMELCASE
 		)
 
-public class RunnerTest extends BaseTest{
+public class Runner extends BaseTest{
 	
 	@BeforeClass
 	public static void login() {
